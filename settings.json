@@ -58,6 +58,8 @@
     "ViTB32quickgelu_laion400m_e32": 0.0,
     "ViTB16_laion400m_e31": 0.0,
     "ViTB16_laion400m_e32": 0.0,
+    "ViT_H_14_laion2b": 0.0,
+    "ViT_g_14_laion2b": 0.0,
     "RN50_yffcc15m": 0.0,
     "RN50_cc12m": 0.0,
     "RN50_quickgelu_yfcc15m": 0.0,

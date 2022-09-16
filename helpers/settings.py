@@ -62,6 +62,8 @@ class Settings:
     ViTB32quickgelu_laion400m_e32 = 0.0
     ViTB16_laion400m_e31 = 0.0
     ViTB16_laion400m_e32 = 0.0
+    ViT_H_14_laion2b = 0.0
+    ViT_g_14_laion2b = 0.0
     RN50_yffcc15m = 0.0
     RN50_cc12m = 0.0
     RN50_quickgelu_yfcc15m = 0.0
@@ -235,6 +237,10 @@ class Settings:
             self.ViTB16_laion400m_e31 = float(dynamic_value(settings_file['ViTB16_laion400m_e31']))
         if is_json_key_present(settings_file, 'ViTB16_laion400m_e32'):
             self.ViTB16_laion400m_e32 = float(dynamic_value(settings_file['ViTB16_laion400m_e32']))
+        if is_json_key_present(settings_file, 'ViT_H_14_laion2b'):
+            self.ViT_H_14_laion2b = float(dynamic_value(settings_file['ViT_H_14_laion2b']))
+        if is_json_key_present(settings_file, 'ViT_g_14_laion2b'):
+            self.ViT_g_14_laion2b = float(dynamic_value(settings_file['ViT_g_14_laion2b']))
         if is_json_key_present(settings_file, 'RN50_yffcc15m'):
             self.RN50_yffcc15m = float(dynamic_value(settings_file['RN50_yffcc15m']))
         if is_json_key_present(settings_file, 'RN50_cc12m'):
@@ -371,6 +377,8 @@ class Settings:
             'ViTB32quickgelu_laion400m_e32': self.ViTB32quickgelu_laion400m_e32,
             'ViTB16_laion400m_e31': self.ViTB16_laion400m_e31,
             'ViTB16_laion400m_e32': self.ViTB16_laion400m_e32,
+            'ViT_H_14_laion2b': self.ViT_H_14_laion2b,
+            'ViT_g_14_laion2b': self.ViT_g_14_laion2b,
             'RN50_yffcc15m': self.RN50_yffcc15m,
             'RN50_cc12m': self.RN50_cc12m,
             'RN50_quickgelu_yfcc15m': self.RN50_quickgelu_yfcc15m,

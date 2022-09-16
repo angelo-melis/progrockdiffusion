@@ -1683,6 +1683,8 @@ model_load_name_map = {
     'ViTB32quickgelu_laion400m_e32': 'ViTB32quickgelu_laion400m_e32',
     'ViTB16_laion400m_e31': 'ViTB16_laion400m_e31',
     'ViTB16_laion400m_e32': 'ViTB16_laion400m_e32',
+    'ViT_H_14_laion2b': 'ViT_H_14_laion2b',
+    'ViT_g_14_laion2b': 'ViT_g_14_laion2b',
     'RN50_yffcc15m': 'RN50_yffcc15m',
     'RN50_cc12m': 'RN50_cc12m',
     'RN50_quickgelu_yfcc15m': 'RN50_quickgelu_yfcc15m',
