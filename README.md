@@ -5,7 +5,7 @@ A GUI is available with a focused set of settings here: [GUI Instructions](#gui-
 Please consider supporting my time and effort in maintaining and improving this program on my [Patreon](https://www.patreon.com/jasonmhough?fan_landing=true). Thanks!
 
 # Quick note on updating:
-A new version was released today, July 16 2022. If you are trying to update you'll need to install an additional item:
+A new version was released today, Sept 16 2022, which includes two new models for Open Clip. As a result you will need up update Open Clip. To do this, delete the open-clip directory inside your PRD directory, then run the command to fetch the newer version:
 (run this in your progrockdiffusion directory)
 ```
 git clone https://github.com/mlfoundations/open_clip.git

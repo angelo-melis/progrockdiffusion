@@ -33,6 +33,8 @@ CLIP_NAME_MAP = {
     'ViTB32quickgelu_laion400m_e32': ['ViT-B-32-quickgelu', 'laion400m_e32'],
     'ViTB16_laion400m_e31': ['ViT-B-16', 'laion400m_e31'],
     'ViTB16_laion400m_e32': ['ViT-B-16', 'laion400m_e32'],
+    'ViT_H_14_laion2b': ['ViT-H-14', 'laion2b_s32b_b79k'],
+    'ViT_g_14_laion2b': ['ViT-g-14', 'laion2b_s12b_b42k'],
     'RN50_yffcc15m': ['RN50', 'yfcc15m'],
     'RN50_cc12m': ['RN50', 'cc12m'],
     'RN50_quickgelu_yfcc15m': ['RN50-quickgelu', 'yfcc15m'],
