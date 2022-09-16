@@ -2175,13 +2175,13 @@ try:
             if settings.render_mask is not None:
                 source_render_mask = Image.open(settings.render_mask).convert('RGBA')
                 source_render_mask = source_render_mask.resize(source_image.size, get_resampling_mode())
-                rmasks = grid_slice(source_render_mask, og_size)
+                rmasks = grid_slice(source_render_mask, gobig_overlap, og_size)
             else:
                 rmasks = None
             if settings.init_masked is not None:
                 source_imask = Image.open(settings.init_masked).convert('RGBA')
                 source_imask = source_imask.resize(source_image.size, get_resampling_mode())
-                imasks = grid_slice(source_imask, og_size)
+                imasks = grid_slice(source_imask, gobig_overlap, og_size)
             else:
                 imasks = None
 
