@@ -2251,6 +2251,7 @@ try:
             while i < settings.gobig_overlap:
                 alpha_gradient.rectangle(shape, fill = a)
                 a += int(255 / settings.gobig_overlap)
+                a = 255 if a > 255 else a
                 i += 1
                 shape = ((args.side_x - i, args.side_y - i), (i,i))
             mask = Image.new('RGBA', (args.side_x, args.side_y), color=0)
