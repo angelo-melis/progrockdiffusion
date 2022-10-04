@@ -2254,6 +2254,9 @@ try:
                 a = 255 if a > 255 else a
                 i += 1
                 shape = ((args.side_x - i, args.side_y - i), (i,i))
+            if a != 255:
+                # if we didn't get to fully opaque, do one last fill to make sure
+                alpha_gradient.rectangle(shape, fill = 255)
             mask = Image.new('RGBA', (args.side_x, args.side_y), color=0)
             mask.putalpha(alpha)
             finished_slices = []
