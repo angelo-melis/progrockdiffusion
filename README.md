@@ -1,6 +1,9 @@
 # progrockdiffusion
+As of October 2022 I am no longer actively updating Prog Rock Diffusion. Occasional bug fixes or minor improvements may happen.
+
 A command line version of [Disco Diffusion](https://github.com/alembics/disco-diffusion).
 A GUI is available with a focused set of settings here: [GUI Instructions](#gui-instructions)
+
 
 # Quick note on updating:
 A new version was released today, Sept 16 2022, which includes two new models for Open Clip. As a result you will need up update Open Clip. To do this, delete the open-clip directory inside your PRD directory, then run the command to fetch the newer version:
@@ -155,19 +158,6 @@ sudo apt-get install ffmpeg libsm6 libxext6 -y
 **[Linux]** Finally:
 ```
 sudo apt install imagemagick
-```
-
-## Optional Animation support
-You'll need to install ffmpeg if you want to do animations.
-
-**[Windows]**
-Download from here: https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
-
-Inside the 7z file look for ffmpeg.exe and extract it into your progrockdiffusion directory (or any directory that's in your path)
-
-**[Linux]**
-```
-sudo apt-get install ffmpeg
 ```
 
 # Use
